@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Zeydan Çalışkan">
+  <meta name="description"
+    content="Mehmet Pınar Tesisat - Kuzey Kıbrıs'ta profesyonel su tesisatı, pergüle montajı, güneş enerjisi sistemleri ve acil tesisat hizmetleri.">
+  <title>Mehmet Pınar Tesisat | Kuzey Kıbrıs</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="public/css/style.css">
+  <script src="public/js/script.js" defer></script>
+  <script src="public/js/hizmetyerleri.js" defer></script>
+  <script src="public/js/takvim.js" defer></script>
+  <script src="public/js/acilarama.js" defer></script>
+  <script src="public/js/fotograf.js" defer></script>
+  <script src="public/js/navbar.js" defer></script>
+  <script src="public/js/whatsapp.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ====== FIXED NAVBAR ====== -->
+  <nav class="topnav" id="topnav">
+    <div class="topnav-inner">
+      <!-- Logo / Marka -->
+      <a href="#bilgi" class="topnav-logo" style="display: flex; align-items: center; gap: 12px;">
+        <img src="public/images/logo.png" alt="Mehmet Pınar Logo" style="height: 50px; width: auto;">
+        Mehmet Pınar Tesisat
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="topnav-menu" id="topnav-menu">
+        <li><a href="#bilgi">Ana Sayfa</a></li>
+
+        <!-- Tesisat Hizmetleri — dropdown -->
+        <li class="has-dropdown">
+          <a href="#tesisat-hizmetleri" class="dropdown-toggle">
+            Tesisat Hizmetleri <span class="arrow">▾</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="pages/galeri/galeri.html">
+                <i class="fas fa-images"></i> Fotoğraf Galerisi
+              </a>
+            </li>
+            <li>
+              <a href="pages/pergule/pergule.html">
+                <i class="fas fa-drafting-compass"></i> Pergüle Montajı
+              </a>
+            </li>
+            <li>
+              <a href="pages/videos/video.html">
+                <i class="fas fa-play-circle"></i> Videolar
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li><a href="#sss">Sorular</a></li>
+        <li><a href="#oneri-sikayet">İletişim Formu</a></li>
+        <li><a href="#konum">Konumumuz</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+        <li class="lang-switch"><a href="indexEN.html" title="English">🇬🇧 EN</a></li>
+      </ul>
+
+      <!-- Mobile Hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Menüyü Aç" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Overlay -->
+  <div class="mobile-overlay" id="mobile-overlay"></div>
+
+  <!-- ====== HERO BANNER ====== -->
+  <header class="hero" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('public/images/classic_hero_bg.png') center/cover no-repeat;">
+    <div class="hero-content">
+      <h1>Mehmet Pınar Ticaret Ltd. Şti.</h1>
+      <p class="hero-sub">🔧 Kuzey Kıbrıs'ta Profesyonel Tesisat Hizmetleri</p>
+      <p class="hero-tagline">Su gibi ol; her engeli aş, her yere ulaş, ama asla kirlenme.</p>
+      <div class="hero-buttons">
+        <a href="#tesisat-hizmetleri" class="hero-cta">Hizmetlerimizi Keşfedin</a>
+        <a href="https://wa.me/905488669395" target="_blank" class="hero-cta-whatsapp">
+          <i class="fab fa-whatsapp"></i> WhatsApp ile Ulaşın
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="bilgi" class="reveal">
+      <h2>Ana Sayfa</h2>
+
+      <article>
+        <h3>Su Tesisatı ile İlgili Temel Bilgiler</h3>
+        <p>Su tesisatı, binalarda temiz suyun kullanım noktalarına iletilmesini ve atık suların tahliye edilmesini
+          sağlayan sistemlerin bütünüdür. Borular, vanalar, musluklar, su ısıtıcıları ve pompalar gibi bileşenlerden
+          oluşur. Doğru tasarım ve montaj, suyun hijyenik ve güvenli bir şekilde kullanılmasını sağlar.</p>
+      </article>
+
+      <article>
+        <h3>Farklı Tesisat Türleri</h3>
+        <ul>
+          <li><strong>PVC (Polivinil Klorür):</strong> Hafif, dayanıklı ve korozyona karşı dirençli bir plastik
+            malzemedir. Genellikle soğuk su ve atık su drenaj sistemlerinde kullanılır.</li>
+          <li><strong>Bakır:</strong> Yüksek dayanıklılık ve ısıya karşı direnç özellikleriyle bilinir. Hem sıcak hem de
+            soğuk su hatlarında tercih edilir.</li>
+          <li><strong>Galvaniz:</strong> Çinko kaplama ile korunan çelik borular, dayanıklı ancak zamanla paslanmaya
+            eğilimlidir.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Su Tesisatı Sisteminin Nasıl Çalıştığı</h3>
+        <p>Su tesisatları genellikle iki ana sistemden oluşur: temiz su besleme sistemi ve atık su tahliye sistemi.
+          Temiz su tesisatı şebekeden veya bir su deposundan suyu alarak musluklara ve cihazlara taşırken, atık su
+          tesisatı kirli suyun bina dışına güvenli şekilde tahliye edilmesini sağlar.</p>
+      </article>
+
+      <article>
+        <h3>Su Tasarrufu Yöntemleri</h3>
+        <ul>
+          <li>Su tasarruflu musluklar ve duş başlıkları kullanmak.</li>
+          <li>Kaçakları önlemek için düzenli bakım yapmak.</li>
+          <li>Bulaşık ve çamaşır makinelerini tam kapasiteyle çalıştırmak.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Enerji Verimliliği ve Su Tasarrufu İpuçları</h3>
+        <p>Su ısıtıcılarının yalıtımını artırarak enerji tasarrufu sağlanabilir. Ayrıca, düşük akışlı musluklar
+          kullanarak hem su hem de enerji tüketimi azaltılabilir.</p>
+      </article>
+
+    </section>
+
+    <section class="service-areas reveal">
+      <script src="public/js/hizmetyerleri.js"></script>
+      <h2>Kuzey Kıbrıs Hizmet Alanları</h2>
+      <div class="slider">
+        <div class="card" tabindex="0" aria-label="Lefkoşa">
+          <div class="icon">📍</div>
+          <h3>Lefkoşa</h3>
+        </div>
+        <div class="card" tabindex="0" aria-label="Gazimağusa">
+          <div class="icon">📍</div>
+          <h3>Gazimağusa</h3>
+        </div>
+        <div class="card" tabindex="0" aria-label="Girne">
+          <div class="icon">📍</div>
+          <h3>Girne</h3>
+        </div>
+        <div class="card" tabindex="0" aria-label="Güzelyurt">
+          <div class="icon">📍</div>
+          <h3>Güzelyurt</h3>
+        </div>
+        <div class="card" tabindex="0" aria-label="İskele">
+          <div class="icon">📍</div>
+          <h3>İskele</h3>
+        </div>
+        <div class="card" tabindex="0" aria-label="Lefke">
+          <div class="icon">📍</div>
+          <h3>Lefke</h3>
+        </div>
+        <div class="card" tabindex="0" aria-label="Tatlısu">
+          <div class="icon">📍</div>
+          <h3>Tatlısu</h3>
+        </div>
+        <div class="card" tabindex="0" aria-label="Karpaz">
+          <div class="icon">📍</div>
+          <h3>Karpaz</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="calisma-takvimi" class="reveal">
+      <div class="calendar-container">
+        <h2>Çalışma Saatlerimiz</h2>
+        <div class="work-hours">
+          Pazartesi - Cuma: 08:00 - 17:00<br>
+          Cumartesi: 08:00 - 14:00<br>
+          Pazar: Kapalı
+        </div>
+
+        <div class="turkey-clock">
+          <p><strong>Kıbrıs Saati:</strong> <span id="turkeyTime">--:--:--</span></p>
+          <h2>Hizmetlerimiz</h2>
+          <p>Su tesisatı montajı</p>
+          <p>Bakım ve onarım hizmetleri</p>
+          <p>Acil durum hizmetleri</p>
+          <p>Su sızıntısı tespiti</p>
+          <p>Şofben & Kombi Bakımı</p>
+          <p>Pergüle montajı & Bakımı</p>
+          <p>Merdıven montajı & Bakımı</p>
+        </div>
+      </div>
+      <script src="public/js/takvim.js"></script>
+    </section>
+
+    <section id="tesisat-hizmetleri" class="tesisat-section reveal">
+      <h2>Mehmet Pınar Ticaret Ltd. Şti. - Tesisat Hizmetleri</h2>
+
+      <div class="tesisat-cards">
+        <div class="tesisat-card">
+          <img src="public/images/Menu/mbmenu.jpg" alt="Sıhhi Tesisat Görseli">
+          <h3>Fotoğraf Galerisi</h3>
+          <a href="pages/galeri/galeri.html" class="details-button">Detaylar</a>
+        </div>
+        <div class="tesisat-card">
+          <img src="public/images/pergüle/pergule.jpeg" alt="pergüle Görseli">
+          <h3>Pergüle</h3>
+          <a href="pages/pergule/pergule.html" class="details-button">Detaylar</a>
+        </div>
+        <div class="tesisat-card">
+          <img src="public/images/Asidemenu/asidemenu.jpeg" alt="Videolar Görseli">
+          <h3>Videolar</h3>
+          <a href="pages/videos/video.html" class="details-button">Detaylar</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sss" class="reveal">
+      <h2>Sıkça Sorulan Sorular</h2>
+      <p>Su tesisatı ile ilgili en yaygın sorular ve çözümleri burada.</p>
+
+      <details class="faq">
+        <summary>
+          <h3>Su tesisatımda sızıntı olduğunu nasıl anlarım?</h3>
+        </summary>
+        <p>Su tesisatınızdaki sızıntıları genellikle su faturanızda ani bir artış, duvarlarda veya zeminlerde su
+          lekeleri, nem veya küf oluşumu gibi belirtilerle anlayabilirsiniz. Ayrıca, su sayacınızı kontrol ederek suyun
+          kullanılmadığı bir zamanda sayacın dönüp dönmediğini kontrol edebilirsiniz.</p>
+      </details>
+
+      <details class="faq">
+        <summary>
+          <h3>Su tesisatım tıkanırsa ne yapmalıyım?</h3>
+        </summary>
+        <p>Tıkanıklık durumunda öncelikle lavabo veya tuvalet gibi alanlarda suyun akışını kontrol edin. Eğer su
+          akmıyorsa, bir pompa veya tıkanıklık açıcı kimyasallar kullanabilirsiniz. Ancak, tıkanıklık devam ederse
+          profesyonel bir tesisatçıdan yardım almanız önerilir.</p>
+      </details>
+
+      <details class="faq">
+        <summary>
+          <h3>Su tesisatımın bakımını ne sıklıkla yapmalıyım?</h3>
+        </summary>
+        <p>Su tesisatınızın düzenli bakımı yılda en az bir kez yapılmalıdır. Bu, sızıntıların, tıkanıklıkların ve
+          diğer sorunların önceden tespit edilmesine yardımcı olur. Ayrıca, su tesisatınızdaki vanaların ve
+          bağlantıların kontrol edilmesi de önemlidir.</p>
+      </details>
+
+      <details class="faq">
+        <summary>
+          <h3>Su tesisatında kullanılan malzemeler nelerdir?</h3>
+        </summary>
+        <p>Su tesisatında genellikle PVC, bakır, galvaniz ve PEX gibi malzemeler kullanılır. Her bir malzemenin
+          avantajları ve dezavantajları vardır. Örneğin, PVC hafif ve ucuzdur, bakır ise dayanıklıdır ve uzun ömürlüdür.
+        </p>
+      </details>
+
+      <details class="faq">
+        <summary>
+          <h3>Su tesisatımda korozyon oluşursa ne yapmalıyım?</h3>
+        </summary>
+        <p>Korozyon, su tesisatında ciddi sorunlara yol açabilir. Eğer korozyon belirtileri görüyorsanız, hemen
+          bir tesisatçı ile iletişime geçmelisiniz. Korozyonun ilerlemesini önlemek için, tesisatın düzenli olarak
+          kontrol edilmesi ve gerekli onarımların yapılması önemlidir.</p>
+      </details>
+    </section>
+
+    <section id="fotograflar" class="reveal">
+      <script src="public/js/fotograf.js"></script>
+      <h2>Fotoğraf Galerisi</h2>
+      <div class="gallery">
+        <!--montaj-->
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj2.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj3.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj4.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj4.1.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj4.2.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj4.3.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj5.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj6.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj7.1.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj8.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj9.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj7.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj9.1.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj9.2.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj9.3.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj10.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj11.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj11.1.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj12.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj13.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj14.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj15.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj16.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj17.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj18.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj19.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj20.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj22.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj23.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Montajlar</h1>
+          <img src="public/images/1)montaj/montaj24.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+
+
+        <!--hidrofor-->
+        <div class="photo">
+          <h1>Hidrofor motor sistemleri</h1>
+          <img src="public/images/2)hidrofor-motor-sistemleri/hidrofor.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Hidrofor motor sistemleri</h1>
+          <img src="public/images/2)hidrofor-motor-sistemleri/hidrofor2.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Hidrofor motor sistemleri</h1>
+          <img src="public/images/2)hidrofor-motor-sistemleri/hidrofor3.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Hidrofor motor sistemleri</h1>
+          <img src="public/images/2)hidrofor-motor-sistemleri/hidrofor4.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Hidrofor motor sistemleri</h1>
+          <img src="public/images/2)hidrofor-motor-sistemleri/hidrofor5.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Hidrofor motor sistemleri</h1>
+          <img src="public/images/2)hidrofor-motor-sistemleri/hidrofor6.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Hidrofor motor sistemleri</h1>
+          <img src="public/images/2)hidrofor-motor-sistemleri/hidrofor7.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Hidrofor motor sistemleri</h1>
+          <img src="public/images/2)hidrofor-motor-sistemleri/hidrofor8.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Hidrofor motor sistemleri</h1>
+          <img src="public/images/2)hidrofor-motor-sistemleri/hidrofor9.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+
+        <!--Güneş Enerjili Su Isıtma Sistemleri & Bakım ve Montajı-->
+        <div class="photo">
+          <h1>Güneş Enerjili Su Isıtma Sistemleri & Bakım ve Montajı</h1>
+          <img src="public/images/3)gunes-enerji-sicak-su-sistemleri/boyler.jpeg" alt="Su Isıtma"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Güneş Enerjili Su Isıtma Sistemleri & Bakım ve Montajı</h1>
+          <img src="public/images/3)gunes-enerji-sicak-su-sistemleri/boylergunes2.jpeg" alt="Su Isıtma"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Güneş Enerjili Su Isıtma Sistemleri & Bakım ve Montajı</h1>
+          <img src="public/images/3)gunes-enerji-sicak-su-sistemleri/boylergunes3.jpeg" alt="Su Isıtma"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Güneş Enerjili Su Isıtma Sistemleri & Bakım ve Montajı</h1>
+          <img src="public/images/3)gunes-enerji-sicak-su-sistemleri/boylergunes4.jpeg" alt="Su Isıtma"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Güneş Enerjili Su Isıtma Sistemleri & Bakım ve Montajı</h1>
+          <img src="public/images/3)gunes-enerji-sicak-su-sistemleri/boylergunes5.jpeg" alt="Su Isıtma"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Güneş Enerjili Su Isıtma Sistemleri & Bakım ve Montajı</h1>
+          <img src="public/images/3)gunes-enerji-sicak-su-sistemleri/boylergunes6.jpeg" alt="Su Isıtma"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Güneş Enerjili Su Isıtma Sistemleri & Bakım ve Montajı</h1>
+          <img src="public/images/3)gunes-enerji-sicak-su-sistemleri/boylergunes7.jpeg" alt="Su Isıtma"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Güneş Enerjili Su Isıtma Sistemleri & Bakım ve Montajı</h1>
+          <img src="public/images/3)gunes-enerji-sicak-su-sistemleri/boylergunes8.jpeg" alt="Su Isıtma"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Güneş Enerjili Su Isıtma Sistemleri & Bakım ve Montajı</h1>
+          <img src="public/images/3)gunes-enerji-sicak-su-sistemleri/boylergunes9.jpeg" alt="Su Isıtma"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Güneş Enerjili Su Isıtma Sistemleri & Bakım ve Montajı</h1>
+          <img src="public/images/3)gunes-enerji-sicak-su-sistemleri/boylergunes10.jpeg" alt="Su Isıtma"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Güneş Enerjili Su Isıtma Sistemleri & Bakım ve Montajı</h1>
+          <img src="public/images/3)gunes-enerji-sicak-su-sistemleri/boylergunes11.jpeg" alt="Su Isıtma"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Güneş Enerjili Su Isıtma Sistemleri & Bakım ve Montajı</h1>
+          <img src="public/images/3)gunes-enerji-sicak-su-sistemleri/boylergunes12.jpeg" alt="Su Isıtma"
+            onclick="openPopup(this)">
+        </div>
+
+        <!--Şhofben Sistemi Sicak Su-->
+
+        <div class="photo">
+          <h1>Şhofben Sistemi Sicak Su</h1>
+          <img src="public/images/4)shofben-sistemi-sicak-su/shofben.jpeg" alt="Su Isıtma" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Şhofben Sistemi Sicak Su</h1>
+          <img src="public/images/4)shofben-sistemi-sicak-su/shofben2.jpeg" alt="Su Isıtma" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Şhofben Sistemi Sicak Su</h1>
+          <img src="public/images/4)shofben-sistemi-sicak-su/shofben3.jpeg" alt="Su Isıtma" onclick="openPopup(this)">
+        </div>
+
+        <!--Mekanik Temiz Su-->
+
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme2.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme3.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme4.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme5.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme6.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme7.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme8.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme9.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme10.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme11.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme12.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme13.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme14.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme15.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Temiz Su</h1>
+          <img src="public/images/5.1)mekanik-temizsu/borudoseme16.jpeg" alt="Montajlar" onclick="openPopup(this)">
+        </div>
+
+        <!--Mekanik Pis Su Altyapisi-->
+
+        <div class="photo">
+          <h1>Mekanik Pis Su Altyapisi</h1>
+          <img src="public/images/5.2)mekanik-pis-su- altyapisi/kirligizder.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Pis Su Altyapisi</h1>
+          <img src="public/images/5.2)mekanik-pis-su- altyapisi/kirligizder2.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Pis Su Altyapisi</h1>
+          <img src="public/images/5.2)mekanik-pis-su- altyapisi/kirligizder3.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Pis Su Altyapisi</h1>
+          <img src="public/images/5.2)mekanik-pis-su- altyapisi/kirligizder4.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Pis Su Altyapisi</h1>
+          <img src="public/images/5.2)mekanik-pis-su- altyapisi/kirligizder5.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Pis Su Altyapisi</h1>
+          <img src="public/images/5.2)mekanik-pis-su- altyapisi/kirligizder6.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+
+        <!--Ana Su Sebeke Fizyon(FE)-->
+
+        <div class="photo">
+          <h1>Ana Su Sebeke Fizyon(FE)</h1>
+          <img src="public/images/6)bahce-sulama(cabrin)/bahce.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Ana Su Sebeke Fizyon(FE)</h1>
+          <img src="public/images/6)bahce-sulama(cabrin)/bahce2.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Ana Su Sebeke Fizyon(FE)</h1>
+          <img src="public/images/6)bahce-sulama(cabrin)/bahce3.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Ana Su Sebeke Fizyon(FE)</h1>
+          <img src="public/images/6)bahce-sulama(cabrin)/bahce4.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Ana Su Sebeke Fizyon(FE)</h1>
+          <img src="public/images/6)bahce-sulama(cabrin)/bahce5.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Ana Su Sebeke Fizyon(FE)</h1>
+          <img src="public/images/6)bahce-sulama(cabrin)/bahce6.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Ana Su Sebeke Fizyon(FE)</h1>
+          <img src="public/images/6)bahce-sulama(cabrin)/bahce7.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Ana Su Sebeke Fizyon(FE)</h1>
+          <img src="public/images/6)bahce-sulama(cabrin)/bahce8.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Ana Su Sebeke Fizyon(FE)</h1>
+          <img src="public/images/6)bahce-sulama(cabrin)/bahce9.jpeg" alt="Tesisat Montajı" onclick="openPopup(this)">
+        </div>
+
+        <!--Mekanik Havuz Motor Sistemleri-->
+
+        <div class="photo">
+          <h1>Mekanik Havuz Motor Sistemleri</h1>
+          <img src="public/images/7mekanik-havuz-motor-sistemleri/havuz.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Havuz Motor Sistemleri</h1>
+          <img src="public/images/7mekanik-havuz-motor-sistemleri/havuz2.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Mekanik Havuz Motor Sistemleri</h1>
+          <img src="public/images/7mekanik-havuz-motor-sistemleri/havuz3.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+
+        <!--Bahce Sulama (Cabrin)-->
+
+        <div class="photo">
+          <h1>Bahce Sulama (Cabrin)</h1>
+          <img src="public/images/8)ana-su-sebeke-fizyon(FE)/bahce.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Bahce Sulama (Cabrin)</h1>
+          <img src="public/images/8)ana-su-sebeke-fizyon(FE)/bahce2.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Bahce Sulama (Cabrin)</h1>
+          <img src="public/images/8)ana-su-sebeke-fizyon(FE)/bahce3.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+        <div class="photo">
+          <h1>Bahce Sulama (Cabrin)</h1>
+          <img src="public/images/8)ana-su-sebeke-fizyon(FE)/bahce4.jpeg" alt="Tesisat Montajı"
+            onclick="openPopup(this)">
+        </div>
+
+      </div>
+    </section>
+
+    <div id="popup" class="popup">
+      <button class="close" onclick="closePopup()">X</button>
+      <img id="popup-img" src="" alt="Büyük Görsel">
+    </div>
+
+
+    <section id="videolar" class="reveal premium-section">
+      <div class="section-header">
+        <h2>Videolar</h2>
+        <p>Çalışmalarımızdan Görüntüler</p>
+      </div>
+
+      <div class="video-category">
+        <h1><i class="fas fa-wrench"></i> Sıhhi Tesisat</h1>
+        <div class="video-container">
+          <div class="video-card">
+            <div class="video-wrapper">
+              <video controls preload="metadata">
+                <source src="public/Videos/sihhi-tesisat/borudoseme.mp4" type="video/mp4">
+                Tarayıcınız bu videoyu desteklemiyor.
+              </video>
+            </div>
+            <div class="video-info">
+              <h3>Boru Döşeme İşlemi 1</h3>
+              <p>Profesyonel sıhhi tesisat boru döşeme uygulaması.</p>
+            </div>
+          </div>
+          <div class="video-card">
+            <div class="video-wrapper">
+              <video controls preload="metadata">
+                <source src="public/Videos/sihhi-tesisat/borudosemev2.mp4" type="video/mp4">
+                Tarayıcınız bu videoyu desteklemiyor.
+              </video>
+            </div>
+            <div class="video-info">
+              <h3>Boru Döşeme İşlemi 2</h3>
+              <p>Profesyonel sıhhi tesisat boru döşeme uygulaması.</p>
+            </div>
+          </div>
+          <div class="video-card">
+            <div class="video-wrapper">
+              <video controls preload="metadata">
+                <source src="public/Videos/sihhi-tesisat/borudosemev3.mp4" type="video/mp4">
+                Tarayıcınız bu videoyu desteklemiyor.
+              </video>
+            </div>
+            <div class="video-info">
+              <h3>Boru Döşeme İşlemi 3</h3>
+              <p>Profesyonel sıhhi tesisat boru döşeme uygulaması.</p>
+            </div>
+          </div>
+          <div class="video-card">
+            <div class="video-wrapper">
+              <video controls preload="metadata">
+                <source src="public/Videos/sihhi-tesisat/borudosemev5.mp4" type="video/mp4">
+                Tarayıcınız bu videoyu desteklemiyor.
+              </video>
+            </div>
+            <div class="video-info">
+              <h3>Boru Döşeme İşlemi 4</h3>
+              <p>Profesyonel sıhhi tesisat boru döşeme uygulaması.</p>
+            </div>
+          </div>
+          <div class="video-card">
+            <div class="video-wrapper">
+              <video controls preload="metadata">
+                <source src="public/Videos/sihhi-tesisat/borudosemev6.mp4" type="video/mp4">
+                Tarayıcınız bu videoyu desteklemiyor.
+              </video>
+            </div>
+            <div class="video-info">
+              <h3>Boru Döşeme İşlemi 5</h3>
+              <p>Profesyonel sıhhi tesisat boru döşeme uygulaması.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- su sebeke  -->
+      <div class="video-category">
+        <h1><i class="fas fa-tint"></i> Ana Su Şebeke Hattı</h1>
+        <div class="video-container">
+          <div class="video-card">
+            <div class="video-wrapper">
+              <video controls preload="metadata">
+                <source src="public/Videos/ana-sebeke/ana-su-sebeke.mp4" type="video/mp4">
+                Tarayıcınız bu videoyu desteklemiyor.
+              </video>
+            </div>
+            <div class="video-info">
+              <h3>Ana Su Şebekesi</h3>
+              <p>Ana su şebeke hattı yenileme ve onarım işlemi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-category">
+        <h1><i class="fas fa-tools"></i> Montajlar</h1>
+        <div class="video-container">
+          <div class="video-card">
+            <div class="video-wrapper">
+              <video controls preload="metadata">
+                <source src="public/Videos/montajlar/montaj.mp4" type="video/mp4">
+                Tarayıcınız bu videoyu desteklemiyor.
+              </video>
+            </div>
+            <div class="video-info">
+              <h3>Klozet ve Musluk Montajı 1</h3>
+              <p>Eksiksiz ve sızdırmaz montaj işlemi.</p>
+            </div>
+          </div>
+          <div class="video-card">
+            <div class="video-wrapper">
+              <video controls preload="metadata">
+                <source src="public/Videos/montajlar/montaj2.mp4" type="video/mp4">
+                Tarayıcınız bu videoyu desteklemiyor.
+              </video>
+            </div>
+            <div class="video-info">
+              <h3>Klozet ve Musluk Montajı 2</h3>
+              <p>Eksiksiz ve sızdırmaz montaj işlemi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-category">
+        <h1><i class="fas fa-solar-panel"></i> Güneş Enerjili Su Isıtma Sistemleri</h1>
+        <div class="video-container">
+          <div class="video-card">
+            <div class="video-wrapper">
+              <video controls preload="metadata">
+                <source src="public/Videos/Güneş-enerjisi/Güneş-enerjisi.mp4" type="video/mp4">
+                Tarayıcınız bu videoyu desteklemiyor.
+              </video>
+            </div>
+            <div class="video-info">
+              <h3>Güneş Enerjisi Bakım ve Montajı</h3>
+              <p>Güvenilir güneş enerjisi sistemi kurulumu ve bakımı.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== BİRLEŞİK İLETİŞİM & GERİ BİLDİRİM FORMU ====== -->
+    <section class="whatsapp-form-section reveal premium-section" id="oneri-sikayet">
+      <div class="section-header">
+        <h2>📬 İletişim & Geri Bildirim</h2>
+        <p>Hizmet talebi, öneri, şikayet veya teşekkürlerinizi bizimle paylaşın.<br>Mesajınız anında WhatsApp üzerinden bize ulaşır.</p>
+      </div>
+
+      <div class="whatsapp-form-wrapper">
+        <form class="whatsapp-form" id="whatsapp-form">
+
+          <!-- Mesaj Türü Seçici -->
+          <div class="complaint-type-selector">
+            <label class="complaint-type-option">
+              <input type="radio" name="message-type" value="Hizmet Talebi" checked>
+              <span class="type-badge type-service">
+                <i class="fas fa-wrench"></i> Hizmet Talebi
+              </span>
+            </label>
+            <label class="complaint-type-option">
+              <input type="radio" name="message-type" value="Öneri">
+              <span class="type-badge type-suggestion">
+                <i class="fas fa-lightbulb"></i> Öneri
+              </span>
+            </label>
+            <label class="complaint-type-option">
+              <input type="radio" name="message-type" value="Şikayet">
+              <span class="type-badge type-complaint">
+                <i class="fas fa-exclamation-circle"></i> Şikayet
+              </span>
+            </label>
+            <label class="complaint-type-option">
+              <input type="radio" name="message-type" value="Teşekkür">
+              <span class="type-badge type-thanks">
+                <i class="fas fa-heart"></i> Teşekkür
+              </span>
+            </label>
+          </div>
+
+          <!-- Ortak Alanlar -->
+          <div class="form-group">
+            <input type="text" id="wp-name" placeholder=" " required autocomplete="name">
+            <label for="wp-name">Ad Soyad</label>
+          </div>
+
+          <div class="form-group">
+            <input type="tel" id="wp-phone" placeholder=" " required autocomplete="tel">
+            <label for="wp-phone">Telefon Numarası</label>
+          </div>
+
+          <!-- Hizmet Seçimi (sadece Hizmet Talebi seçildiğinde görünür) -->
+          <div class="form-group" id="service-group">
+            <select id="wp-service">
+              <option value="" disabled selected>Hizmet seçin...</option>
+              <option value="Su Tesisatı Montajı">Su Tesisatı Montajı</option>
+              <option value="Bakım ve Onarım">Bakım ve Onarım</option>
+              <option value="Acil Durum Hizmeti">Acil Durum Hizmeti</option>
+              <option value="Su Sızıntısı Tespiti">Su Sızıntısı Tespiti</option>
+              <option value="Şofben / Kombi Bakımı">Şofben / Kombi Bakımı</option>
+              <option value="Güneş Enerjisi Sistemi">Güneş Enerjisi Sistemi</option>
+              <option value="Pergüle Montajı">Pergüle Montajı</option>
+              <option value="Merdiven Montajı">Merdiven Montajı</option>
+              <option value="Diğer">Diğer</option>
+            </select>
+            <label for="wp-service">Hizmet Türü</label>
+          </div>
+
+          <!-- Konu Seçimi (Öneri/Şikayet/Teşekkür seçildiğinde görünür) -->
+          <div class="form-group" id="subject-group" style="display: none;">
+            <select id="cf-subject">
+              <option value="" disabled selected>Konu seçin...</option>
+              <option value="Hizmet Kalitesi">Hizmet Kalitesi</option>
+              <option value="Fiyatlandırma">Fiyatlandırma</option>
+              <option value="Randevu / Zamanlama">Randevu / Zamanlama</option>
+              <option value="Personel Davranışı">Personel Davranışı</option>
+              <option value="Teknik Sorun">Teknik Sorun</option>
+              <option value="Genel Öneri">Genel Öneri</option>
+              <option value="Diğer">Diğer</option>
+            </select>
+            <label for="cf-subject">Konu</label>
+          </div>
+
+          <!-- Mesaj Alanı -->
+          <div class="form-group">
+            <textarea id="wp-message" placeholder=" " rows="5" required></textarea>
+            <label for="wp-message">Mesajınızı yazın...</label>
+          </div>
+
+          <!-- Yıldız Puanlama (Öneri/Şikayet/Teşekkür seçildiğinde görünür) -->
+          <div class="form-group rating-group" id="rating-group" style="display: none;">
+            <label class="rating-label">Hizmet Puanınız</label>
+            <div class="star-rating" id="star-rating">
+              <span class="star" data-value="1">★</span>
+              <span class="star" data-value="2">★</span>
+              <span class="star" data-value="3">★</span>
+              <span class="star" data-value="4">★</span>
+              <span class="star" data-value="5">★</span>
+            </div>
+          </div>
+
+          <button type="submit" class="whatsapp-submit-btn">
+            <i class="fab fa-whatsapp"></i> WhatsApp ile Gönder
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!--iletisim-->
+    <section id="iletisim" class="reveal">
+      <h2>İletişim Bilgileri</h2>
+      <p>Bizimle iletişime geçmekten çekinmeyin.</p>
+
+      <div class="iletisim-grid">
+        <!-- Sol: Bilgi kartları -->
+        <div class="iletisim-bilgi">
+          <div class="iletisim-card">
+            <div class="iletisim-icon"><i class="fas fa-building"></i></div>
+            <div class="iletisim-detail">
+              <strong>Şirket</strong>
+              <span>Mehmet Pınar Ticaret ŞTİ LTD.</span>
+            </div>
+          </div>
+          <div class="iletisim-card">
+            <div class="iletisim-icon"><i class="fas fa-user"></i></div>
+            <div class="iletisim-detail">
+              <strong>Ad Soyad</strong>
+              <span>Mehmet Pınar</span>
+            </div>
+          </div>
+          <div class="iletisim-card">
+            <div class="iletisim-icon"><i class="fas fa-envelope"></i></div>
+            <div class="iletisim-detail">
+              <strong>E-posta</strong>
+              <span>mpinar559@gmail.com</span>
+            </div>
+          </div>
+          <div class="iletisim-card">
+            <div class="iletisim-icon"><i class="fas fa-phone"></i></div>
+            <div class="iletisim-detail">
+              <strong>Telefon</strong>
+              <span>+90 548 866 93 95</span>
+            </div>
+          </div>
+          <div class="iletisim-card">
+            <div class="iletisim-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="iletisim-detail">
+              <strong>Ülke & Bölge</strong>
+              <span>Kuzey Kıbrıs Türk Cumhuriyeti<br>Gazimağusa - Tatlısu</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sağ: Harita -->
+        <div class="iletisim-harita">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2627.8207484544173!2d33.74798494747969!3d35.3949592239569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2s!4v1748267051808!5m2!1str!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="social-links">
+        <a href="https://wa.me/+905488669395" target="_blank" class="whatsapp">
+          📱 WhatsApp
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100091002264849" target="_blank" class="facebook">
+          📘 Facebook
+        </a>
+        <a href="mailto:mpinar559@gmail.com" target="_blank" class="gmail">
+          📧 Gmail
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Acil Tesisat Butonu ve Bilgileri -->
+  <div class="floating-emergency">
+    <button class="emergency-button" id="toggleButton">📞 Acil Tesisat</button>
+    <div class="emergency-info" id="emergencyInfo">
+      <p><strong>💡 7/24 Acil Tesisat Desteği</strong></p>
+      <h3>📞 İletişim Bilgileri</h3>
+      <p>👨‍🔧 Mehmet Pınar</p>
+
+      <!-- Telefon Butonu -->
+      <div class="contact-buttons">
+        <a href="tel:+905488669395" class="contact-button phone">📱 Telefon</a>
+        <a href="https://wa.me/905488669395" target="_blank" class="contact-button whatsapp">💬 WhatsApp</a>
+      </div>
+
+      <!-- Konum  -->
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d406.5599001921386!2d33.74770939316604!3d35.393370839500314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1skibris%20tatlisu%20oto%20yikama!5e0!3m2!1sen!2sus!4v1754229962346!5m2!1sen!2sus"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+  <script src="public/js/acilarama.js"></script>
+
+  <!-- Floating WhatsApp Button -->
+  <div class="floating-whatsapp">
+    <a href="https://wa.me/905488669395" target="_blank" aria-label="WhatsApp ile iletişime geçin">
+      <i class="fab fa-whatsapp"></i>
+      <span class="tooltip">💬 Bize WhatsApp'tan yazın!</span>
+    </a>
+  </div>
+
+  <!-- Müzik -->
+  <audio id="background-music" src="muzik/Ehrling-Dance-With-Me.mp3" loop></audio>
+  <button id="scroll-top" aria-label="Yukarı Çık" title="Yukarı Çık"><i class="fas fa-arrow-up"></i></button>
+  <button id="music-toggle" aria-label="Müziği Aç/Kapat">🔊</button>
+  <script src="public/js/muzik.js"></script>
+
+  <!-- Gizlilik Politikası ve İçerik Kullanım Uyarısı -->
+  <script src="public/js/gizlilikpolitikasi.js" defer></script>
+  <div id="privacyModal" class="privacy-modal">
+    <div class="privacy-modal-content">
+      <h2>📄 Gizlilik Politikası ve Telif Hakları Uyarısı</h2>
+      <p>Bu web sitesi üzerinde yer alan tüm görseller, videolar, metinler ve diğer içerikler
+        <strong>Mehmet Pınar Ticaret Ltd. Şti.</strong>'ne aittir ve
+        <strong>Fikir ve Sanat Eserleri Kanunu</strong> kapsamında korunmaktadır.
+      </p>
+
+      <p>
+        İçeriklerin izinsiz olarak kopyalanması, paylaşılması, yeniden yayınlanması ya da başka platformlarda
+        kullanılması kesinlikle yasaktır ve hukuki yaptırıma tabidir.
+      </p>
+      <p>Siteyi kullanmaya devam edebilmeniz için bu koşulları
+        <strong>kabul etmeniz</strong> gerekmektedir.
+      </p>
+      <button id="acceptPrivacy">Kabul Ediyorum ve Devam Etmek İstiyorum</button>
+      <p style="font-size: 0.8rem; color: #888; margin-top: 10px;">Kabul etmediğiniz takdirde siteyi kullanamazsınız.
+      </p>
+    </div>
+  </div>
+
+  <!--footer-->
+  <footer style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <img src="public/images/logo.png" alt="Mehmet Pınar Logo" style="height: 60px; width: auto; margin-bottom: 15px;">
+    <p>&copy; 2025 <strong>Mehmet Pınar Ticaret Ltd. Şti.</strong> &mdash; Tüm Hakları Saklıdır.<br>
+      <small>Kuzey Kıbrıs Türk Cumhuriyeti · Profesyonel Tesisat Hizmetleri</small>
+    </p>
+    <div class="social-media">
+      <a href="https://wa.me/+905488669395" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100091002264849" target="_blank" title="Facebook"><i
+          class="fab fa-facebook-f"></i></a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
